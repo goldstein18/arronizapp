@@ -1,5 +1,6 @@
 {
   "rewrites": [
-    { "source": "/:path*", "destination": "/es/:path*" }
+    { "source": "/", "destination": "/es/home/index.html" },
+    { "source": "/:path*", "destination": "/es/:path*/index.html" }
   ]
 }
