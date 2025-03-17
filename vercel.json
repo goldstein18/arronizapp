@@ -1,9 +1,5 @@
 {
-    "rewrites": [
-      {
-        "source": "/",
-        "destination": "/es/home/index.html"
-      },
-        { "source": "/galeria/:path*", "destination": "/galeria/:path*" }
-    ]
-  }
+  "rewrites": [
+    { "source": "/:path*", "destination": "/es/:path*" }
+  ]
+}
